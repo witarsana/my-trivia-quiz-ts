@@ -1,0 +1,27 @@
+.question-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .question-no {
+    font-weight: bold;
+    margin: 1rem 0;
+    font-style: italic;
+  }
+
+  .question {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+    flex: 1;
+    .ans {
+      margin: 0.2rem 0;
+    }
+  }
+}
